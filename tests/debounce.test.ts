@@ -1,4 +1,4 @@
-import { debounce } from "../src/debounce"; // ajuste o caminho se necessário
+import { debounce } from "../src/debounce";
 import { vi, describe, it, expect } from "vitest";
 
 describe("debounce", () => {
