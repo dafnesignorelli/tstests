@@ -36,6 +36,33 @@ export function debounce(fn: Function, delay: number): Function {
 
 ```
 
+## closure 
+
+```ts
+
+export function getId() {
+  let id = 0;
+
+  return function(){
+    id++;
+    return id;
+  }
+};
+
+```
+## createMultiplier 
+
+```ts
+
+export function createMultiplier(multiplicador: number) {
+    return function(numero: number) {
+      return numero * multiplicador;
+    };
+  }
+  
+
+```
+
 ## domande G
 
 10 Domande Teoriche per un Colloquio di Front-end in Italiano

@@ -4,12 +4,12 @@
 
 // Id generator
 
-// let id = 0;
-
-export const getId = () => {
+export function getId() {
   let id = 0;
-  id++;
-  return id;
-};
 
+  return function(){
+    id++;
+    return id;
+  }
+};
 // id = 999; // hoisting
