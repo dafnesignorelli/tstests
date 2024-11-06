@@ -1,8 +1,8 @@
 import { describe, it, expect, vi } from "vitest";
 import { fetchData } from "../src/promise";
 
-describe("callback", () => {
-  it("should call the callback after delay", () => {
+describe("promise", () => {
+  it("should call the promise", () => {
     // Cria uma função mock
     
     // Simula timers
