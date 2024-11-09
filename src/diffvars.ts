@@ -9,6 +9,7 @@ export const exVar = () => {
 };
 
 export const exLet = () => {
+  console.log("before: ", sec);
   let sec = 0;
   console.log("1: ", sec);
   let testDue;
@@ -18,13 +19,13 @@ export const exLet = () => {
 };
 
 export const exConst = () => {
-  //console.log("before: ", terz);
+  console.log("before: ", terz);
   const terz = 0;
   console.log(terz);
-//   const testDue;
-//   console.log("2: ", testDue);
-//  // testDue = 1;
-//   console.log("2: ", testDue);
+  const testDue;
+  console.log("2: ", testDue);
+  testDue = 1;
+  console.log("2: ", testDue);
 };
 
 export const exConst2 = () => {
